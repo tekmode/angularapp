@@ -18,7 +18,7 @@
             </form>
         </div>
         <div class="col">
-          <p class="life-containter" *ngFor="let employee of employees; let i=index" (click)="rememp(i)">{{employee}}</p>          
+          <p class="life-containter" *ngFor="let employee of employees; let i=index" (click)="rememp(i)">{{i+1}} {{employee}}</p>          
         </div>     
     </div>
 
